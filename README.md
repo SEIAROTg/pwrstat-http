@@ -4,6 +4,8 @@ Exports CyberPower UPS tool as an HTTP service.
 
 Also comes with an out-of-the-box demo setup with data collection (Telegraf), storage (InfluxDB 2) and dashboard (Grafana).
 
+![demo](./demo.png)
+
 # Requirements
 
 * Docker
