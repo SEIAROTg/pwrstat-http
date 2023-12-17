@@ -1,6 +1,6 @@
-FROM python:3-slim
+FROM docker.io/library/python:3.11-slim
 
-ARG PPL_DEB_URL=https://dl4jz3rbrsfum.cloudfront.net/software/PPL-1.3.3-64bit.deb
+ARG PPL_DEB_URL=https://dl4jz3rbrsfum.cloudfront.net/software/PPL_64bit_v1.4.1.deb
 
 WORKDIR /app
 COPY . .
